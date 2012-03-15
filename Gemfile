@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.0'
+gem 'rails', '~> 3.2.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -12,8 +12,8 @@ end
 
 gem 'jquery-rails'
 
-gem 'mongoid',  '~> 2.2.0'
-gem 'bson_ext', '~> 1.2'
+gem 'mongoid'
+gem 'bson_ext'
 gem 'rails3-generators'
 
 gem 'haml'
