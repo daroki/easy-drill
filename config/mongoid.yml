@@ -1,10 +1,10 @@
 development:
   host: localhost
-  database: communal_development
+  database: easydrill_development
 
 test:
   host: localhost
-  database: communal_test
+  database: easydrill_test
 
 # set these environment variables on your prod server
 production:
