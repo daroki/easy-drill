@@ -12,8 +12,8 @@ end
 
 gem 'jquery-rails'
 
-gem 'mongoid'
-gem 'bson_ext'
+gem 'mongoid',  '~> 2.4.5'
+gem 'bson_ext', '~> 1.2'
 gem 'rails3-generators'
 
 gem 'haml'
@@ -27,6 +27,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-google-oauth2'
 
+gem 'therubyracer'
 gem 'airbrake'
 
 group :production do
